@@ -1,0 +1,134 @@
+
+* {
+  box-sizing: border-box;
+}
+header,
+section {
+  overflow: hidden;
+}
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+}
+
+Link,Link:hover,Link:focus,Link:active {text-decoration: none;}
+
+/* :root {
+  --logoFont: "Urbanist", cursive;
+  --lightBlack: rgb(22, 22, 22);
+  --lightGray: rgb(116, 115, 115);
+  --banner-orange: #c4762d;
+  --banner-blue: #125664;
+  --banner-purple: rgb(61, 30, 61);
+  --footer-purple: rgba(68, 37, 57, 0.9);
+  --border-purple: #c184d4;
+  --border-green: rgb(61, 109, 16);
+} */
+
+/*--------sign-up form---------*/
+.fs-6 {
+  font-size: 0.8rem!important;
+}
+#userReg{
+  justify-content: center;
+  display: inline-block;
+  font-size:medium;
+}
+#userTick{
+  color:green;
+  display: inline-block;
+}
+.modal-header {
+  display: inline !important;
+  padding-top:10px;
+  background-color: #e69850;
+  border-radius: 0px;
+  margin:0;
+}
+#staticBackdropLabel{
+  text-align: center;
+}
+.modal-header> button{
+  float: right;
+}
+.input-group> input:focus{
+  outline: none !important;
+  border-bottom:1px solid gray;
+}
+.modal-header .btn-close {
+  padding: 0.9rem 0.9rem !important;
+}
+.modal-body {
+  padding: 2rem;
+}
+.modal-title {
+  padding: 5px;
+  color: #222;
+  font-weight: 900;
+  font-size: 30px;
+  letter-spacing: 6px;
+}
+.customSignup{
+  border-radius:0px;
+  color:black;
+  width: 400px;
+}
+.form-control{
+  background:transparent;
+  border-radius: 0px;
+  border: 0px;
+  border-bottom:1px solid gray;
+  color:black;
+  transition:none
+}
+.input-group input{
+  padding-left: 20px;
+}
+.input-group-addon{
+ 
+  border-radius: 0px;
+  border: 0px;
+  color:rgb(95, 93, 93);
+  font-size: 24px;
+  width:28px;
+  padding:3px;
+  text-align: center;
+}
+.modal-footer> button{
+  width:100%;
+  border-radius:0;
+background-color: #94499c;
+color:white;
+padding:10px;
+}
+.modal-footer> button:hover{
+color:white;
+}
+.modal-footer >p{
+  justify-content: center !important;
+  display: flex !important;
+  text-align: center !important;
+  font-size: medium;
+}
+.modal-footer >p>a{
+  color:rgb(8, 108, 240);
+}
+.modal-dialog {
+  max-width: 400px;
+}
+
+/*--------------Login form----------*/
+#loginFormTitle{
+  text-align: center;
+}
+.customLogin{
+  border-radius: 0px;
+}
+
+/*----------set container height to min---------*/
+
+.container-height{
+  min-height: calc(100vh - 160px);
+}

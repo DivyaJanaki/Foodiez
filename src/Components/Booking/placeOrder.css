@@ -1,0 +1,23 @@
+
+#cart-items{
+    border: 4px solid  rgb(192, 179, 60);
+}
+.cart-img{
+height:120px;
+width:120px;
+}
+.cart-name{
+    color:#233b51;
+    font-weight:bold;
+    /* border-bottom:1.5px dotted #233b51; */
+    line-height: 2.5rem;
+    letter-spacing: 1px;
+    font-size: large;
+}
+.cart-price{
+    padding: 0.5rem 0rem;
+}
+.btn-pro{
+    width: clamp(150px,74%,300px);
+font-size: large;
+}

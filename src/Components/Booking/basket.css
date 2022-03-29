@@ -1,0 +1,46 @@
+.title{
+    color:#233b51;
+    font-weight:bold;
+    line-height: 2.5rem;
+    letter-spacing: 1.5px;
+    font-size: x-large;
+}
+
+
+#personal-details{
+    border: 4px solid  rgb(192, 179, 60);
+}
+
+label {
+    display: inline-block;
+    width: 12%;
+}
+.form-control {
+    display: inline-block;
+    width: 88%;
+}
+#cart-items{
+    border: 4px solid  rgb(192, 179, 60);
+}
+.cart-img{
+height:120px;
+width:120px;
+}
+.cart-name{
+    color:#233b51;
+    font-weight:bold;
+    /* border-bottom:1.5px dotted #233b51; */
+    line-height: 2.5rem;
+    letter-spacing: 1px;
+    font-size: large;
+}
+.cart-price{
+    padding: 0.5rem 0rem;
+}
+.qty{
+    width:40px;
+}
+.btn-proceed{
+    width:clamp(150px,50%,300px);
+    font-size: large;
+}

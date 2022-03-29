@@ -1,0 +1,85 @@
+
+a,a:hover,a:focus,a:active {
+  text-decoration: none;}
+.tileContainer:hover {
+    /*transform: scale(1.1);
+     transform: rotate(70deg)
+     transform: skewY(40deg);*/
+    transform: scale(1.1);
+    background-color: #b6ddd8;
+  }
+  /*
+  .tilecomponent1 {
+    height: 60%;
+  }*/
+  
+  .CardSection {
+    background-color: #f4ebe0;
+  }
+  .CardSectionHeader > span {
+    /* margin-left: 10% !important; */
+    font-weight: 700;
+    font-size: xx-large;
+    letter-spacing: 2px;
+    padding-bottom: 4px;
+    border-bottom: 3px solid #c59d5f;
+ }
+  
+  /*-----Card design------*/
+  #customCard {
+    background-color:white;
+    box-shadow: 1px 4px 4px rgb(82, 81, 81);
+    /* border: 1px solid rgb(92, 91, 91); */
+    padding:0px;
+    /* max-width: 540px; */
+    transition: box-shadow 0.3s ease-in-out;
+    /* max-height: 240px; */
+  }
+
+  #customCard:hover {
+    background-color: #fff;
+    box-shadow: 7px 10px 9px rgb(82, 81, 81);
+    
+  }
+  .img-fluid{
+     height: 161px;
+    border: 5px solid #c59d5f;
+    border-radius:4px;
+    /* max-height:240px; */
+    width:100%;
+  }
+  .card-body{
+    text-decoration: none !important;
+  }
+  .card-title{
+    color:#233b51;
+    font-weight:bold;
+    border-bottom:1px dotted #233b51;
+    line-height: 2.5rem;
+    letter-spacing: 2px;
+    font-size: large;
+  }
+  .card-text{
+    color:#768fa6;
+    margin-bottom: 0rem;
+  }
+  /*---------------media queries------------*/
+  
+
+@media screen and (min-width: 576px) {
+  .img-fluid{
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .CardSectionHeader > span {
+    font-size: medium;
+ }
+
+}
+@media screen and (max-width: 376px) {
+}
+@media screen and (max-width: 350px) {
+
+}

@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@200&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Festive&display=swap');
+
+:root {
+  --lightBlack: rgb(22, 22, 22);
+  --lightGray: rgb(116, 115, 115);
+  --banner-orange: #c4762d;
+  --banner-blue: #20606d;
+  --banner-purple: #8f4f84;
+  --footer-purple: rgba(114, 63, 95, 0.9);
+  --border-purple: #c184d4;
+  --border-green: rgb(61, 109, 16);
+}
+/*#main {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 2%;
+}
+
+#main > h1 {
+  color: rgb(94, 92, 92);
+}
+
+#filter {
+  height: 600px;
+  width: 25%;
+  float: left;
+  padding-left: 10px;
+  background-color: #b283c4;
+  border-radius: 4px;
+}
+
+#filter > select {
+  width: 95%;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+}
+
+#content_main {
+  width: 70%;
+  float: left;
+  margin-left: 3%;
+}
+
+.content {
+  height: 200px;
+  width: 100%;
+  border: 2px solid #ed9542;
+  border-radius: 4px;
+  margin-top: 3%;
+}
+.content:hover {
+  /*transform: scale(1.1);
+     transform: rotate(70deg)
+     transform: skewY(40deg);
+  background-color: #fff;
+  box-shadow: 5px 10px 15px #c184d4;
+  border: 0px;
+}
+ul li {
+  padding-bottom: 10px;
+}
+.tileComponent1 {
+  width: 48%;
+  height: 100%;
+  float: left;
+}
+
+.tileComponent1 > img {
+  width: 100%;
+  height: 100%;
+}
+.tileComponent2 {
+  width: 46%;
+  float: left;
+  margin-top: 7%;
+  margin-left: 20px;
+}
+.componentHeading {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.componentSubHeading {
+  color: gray;
+  font-size: 18px;
+}
+
+.componentCost {
+  padding-top: 20px;
+}
+*/
+/*---------- Bootstrap New----*/
+#filterTitle{
+font-family: "Dancing Script";
+font-size: xx-large;
+font-weight: bold;
+text-align: center;
+}
+#Listing_title {
+  background-color: rgb(61, 30, 61);
+  font-family: "Parisienne", cursive;
+  color:#c4762d;
+}
+body{
+background-color: #f4ebe0;
+}
+#filter {
+  width: 25%;
+  border-radius: 4px;
+}
+#filter ul {
+  list-style: none;
+  padding-left: 0;
+}
+#filterLocation > select {
+  width: 80%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+}
+.card {
+  width: 100% !important;
+}
+
+.listleft{
+  display: inline-block;
+  
+}
+.listright{
+  display: inline-block;
+  margin-left: 1px;
+}
+@media screen and (max-width: 768px) {
+  #filter {
+    flex-direction: row !important;
+    margin: none !important;
+    width: 96%;
+    font-size: medium;
+  }
+  #filter h4 {
+    font-size: small;
+  }
+  /* #filterLocation {
+    float: left;
+  }
+  #filterCuisine {
+    float: left;
+  }
+  #filterCost {
+    float: left;
+  } */
+  .accordion-body{
+  z-index: 999;
+position: absolute;
+background: white;}
+}
+@media screen and (max-width: 580px) {
+  /* #filterLocation {
+    margin-left: 0 !important;
+  }
+  #filterCuisine {
+    margin-left: 2% !important;
+  }
+  #filterCost {
+    margin-left: 2% !important;
+  } */
+  #filter {
+    justify-content: center !important;
+  }
+}
+@media screen and (max-width: 480px) {
+  /* #filterLocation {
+    margin-left: 0 !important;
+  }
+  #filterCuisine {
+    margin-left: 0 !important;
+  }
+  #filterCost {
+    margin-left: 0% !important;
+  } */
+  .accordion-header button{
+      font-size: small !important;
+  }
+}
+@media screen and (max-width: 446px) {
+#filterTitle{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+.accordion-button{
+    padding:1rem 0.25rem;
+}
+.accordion-body{
+padding:1rem 0.25rem;
+}
+}
+#view-detail{
+    width: 100%;
+}

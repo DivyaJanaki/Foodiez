@@ -1,0 +1,23 @@
+/*-----footer--------*/
+#footerData {
+    /*font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    padding: 30px;
+    color: white;
+    margin-top: 30px;*/
+    /* background-color: rgba(68, 37, 57, 0.9); */
+    position:inherit;
+    color: #fff;
+    bottom:0;
+  }
+  .footer-socials > a>i:hover {
+    transform: scale(1.2);
+  }
+  .footer-socials >a{
+    background:linear-gradient( purple, red);
+    color: transparent;
+    background-clip: text;
+    font-size: 14px;
+    padding:10px;
+  }

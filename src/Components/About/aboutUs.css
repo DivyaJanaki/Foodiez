@@ -1,0 +1,39 @@
+Body{
+    margin:0px;
+    padding:0px;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+#quote{
+    font-size:xx-large;
+}
+.About-banner{
+    background:#f48520;
+    color:white;
+}
+.about-img{
+    width:100%;
+    height:60vh;
+    margin-left: -15px;
+}
+.img-about-two{
+    width:100%;
+    height:60vh;
+    margin-right: -15px;
+    background:#222;
+}
+.About-sec-banner{
+    background:#94499c;
+    color:white;
+}
+.about-socials >a>i{
+    color:white;
+    padding:15px;
+    font-size:24px;
+}
+
+.about-socials >a>i:hover{
+    color:#2f0b33;
+}
